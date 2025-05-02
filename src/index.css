@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap');
+@import "tailwindcss";
+
+@theme {
+
+    /* Font Family */
+    --font-Jakarta: "Plus Jakarta Sans", sans-serif;
+    --font-Manrope: "Manrope", sans-serif;
+    --font-Poppins: "Poppins", sans-serif;
+    --font-Questrial: "Questrial", sans-serif;
+
+    /* Font Size */
+    --text-xxl: 84px;
+
+    /* Color */
+    --color-menu-black: #020407; 
+    --color-button-black: #010205;
+    
+    /* Drop Shadow */
+    --drop-shadow-3xl: 15.57px 16.69px 20.47px rgba(0, 0, 0, 0.07);
+    --drop-shadow-4xl: -9px 11px 38.1px rgba(0, 0, 0, 0.05);
+  }
