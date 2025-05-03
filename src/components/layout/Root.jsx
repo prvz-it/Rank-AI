@@ -1,16 +1,16 @@
 import React from "react";
 import { Outlet } from "react-router";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "../shared/Navbar";
+import Footer from "../shared/Footer";
 
-const Layout = () => {
+const Root = () => {
   return (
     <>
       <Navbar />
       <Outlet />
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Root;

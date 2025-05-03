@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaPhone } from "react-icons/fa6";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import Logo from "../assets/Logo.png";
+import Logo from "../../assets/Logo.png";
 import Container from "../layer/Container";
 
 const Footer = () => {

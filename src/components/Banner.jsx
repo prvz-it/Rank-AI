@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "../layer/Container";
-import Flex from "../layer/Flex";
+import Container from "./layer/Container";
+import Flex from "./layer/Flex";
 
 import BannerMain from "../assets/bannerMain.png"
 import BannerTwi from "../assets/bannerTwi.png"
@@ -12,7 +12,7 @@ const Banner = () => {
   return (
     <>
       {/* <div className="relative after:content-['*'] after:absolute after:-top-55 after:-left-61 after:w-163.5 after:h-163.5  after:rounded-full after:bg-linear-to-r/srgb from-[#FF6FB9] to-[#6797FF] after:blur-xxl after:z-10"></div> */}
-      <div className="mt-12 xl:mt-20.5">
+      <div className="mt-12 xl:mt-20.5 relative z-0">
         <Container className="xl:h-dvh">
           <div className="lg:flex justify-between">
             <div className="w-full lg:w-120 xl:w-159.5">
