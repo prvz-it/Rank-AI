@@ -9,9 +9,9 @@ import Container from "../layer/Container";
 const Footer = () => {
   return (
     <>
-      <Container className="mb-5">
-        <div className="flex flex-col lg:flex-row justify-between">
-          <div className="w-full lg:w-2/5 mb-8 lg:mb-0">
+      <Container className="mt-20 mb-5">
+        <div className="flex flex-col lg:flex-row items-center justify-between">
+          <div className="w-full lg:w-[38%] mb-8 lg:mb-0">
             <div className="w-full">
               <Link>
                 <img src={Logo} alt="Logo.png" />
@@ -52,16 +52,15 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-[50%]">
            <div className="flex flex-wrap justify-between">
-            <div className="w-26 hidden sm:block">
+            <div className="w-28 hidden sm:block">
               <h2 className="font-Manrope font-semibold text-lg leading-4.5 tracking-[-1%] text-[#001C4A]">Navigation :</h2>
               <div className="mt-6">
                 <ul>
                     <li className="my-2.5"><Link className="font-Manrope font-normal text-sm leading-3.5 text-[#335386]">Service</Link></li>
                     <li className="my-2.5"><Link className="font-Manrope font-normal text-sm leading-3.5 text-[#335386]">Agency</Link></li>
-                    <li className="my-2.5"><Link className="font-Manrope font-normal text-sm leading-3.5 text-[#335386]">Case</Link></li>
-                    <li className="my-2.5"><Link className="font-Manrope font-normal text-sm leading-3.5 text-[#335386]">Study</Link></li>
+                    <li className="my-2.5"><Link className="font-Manrope font-normal text-sm leading-3.5 text-[#335386]">Case Study</Link></li>
                     <li className="my-2.5"><Link className="font-Manrope font-normal text-sm leading-3.5 text-[#335386]">Resource</Link></li>
                     <li className="my-2.5"><Link className="font-Manrope font-normal text-sm leading-3.5 text-[#335386]">Contact</Link></li>
                 </ul>

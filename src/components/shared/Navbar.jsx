@@ -109,8 +109,8 @@ const Navbar = () => {
                       <NavLink
                         to="/"
                         className={({ isActive }) => 
-                          `font-Jakarta font-semibold text-sm leading-3.5 text-menu-black ${
-                            isActive ? "active" : "hover:text-[#000000aa]"
+                          `font-Jakarta font-semibold text-sm leading-3.5 text-white ${
+                            isActive ? "active" : "hover:text-[#ffffffaa]"
                           }`
                         }
                       >
@@ -121,8 +121,8 @@ const Navbar = () => {
                       <NavLink
                         to="/about"
                         className={({ isActive }) => 
-                          `font-Jakarta font-semibold text-sm leading-3.5 text-menu-black ${
-                            isActive ? "active" : "hover:text-[#000000aa]"
+                          `font-Jakarta font-semibold text-sm leading-3.5 text-white ${
+                            isActive ? "active" : "hover:text-[#ffffffaa]"
                           }`
                         }
                       >
@@ -133,8 +133,8 @@ const Navbar = () => {
                       <NavLink
                         to="/pricing"
                         className={({ isActive }) => 
-                          `font-Jakarta font-semibold text-sm leading-3.5 text-menu-black ${
-                            isActive ? "active" : "hover:text-[#000000aa]"
+                          `font-Jakarta font-semibold text-sm leading-3.5 text-white ${
+                            isActive ? "active" : "hover:text-[#ffffffaa]"
                           }`
                         }
                       >
@@ -145,8 +145,8 @@ const Navbar = () => {
                       <NavLink
                         to="/consulting"
                         className={({ isActive }) => 
-                          `font-Jakarta font-semibold text-sm leading-3.5 text-menu-black ${
-                            isActive ? "active" : "hover:text-[#000000aa]"
+                          `font-Jakarta font-semibold text-sm leading-3.5 text-white ${
+                            isActive ? "active" : "hover:text-[#ffffffaa]"
                           }`
                         }
                       >
@@ -157,8 +157,8 @@ const Navbar = () => {
                       <NavLink
                         to="/coach"
                         className={({ isActive }) => 
-                          `font-Jakarta font-semibold text-sm leading-3.5 text-menu-black ${
-                            isActive ? "active" : "hover:text-[#000000aa]"
+                          `font-Jakarta font-semibold text-sm leading-3.5 text-white ${
+                            isActive ? "active" : "hover:text-[#ffffffaa]"
                           }`
                         }
                       >
