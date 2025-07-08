@@ -10,7 +10,7 @@ import twist from "../assets/bannerTwi.png";
 
 import Container from "./layer/Container";
 import Flex from "./layer/Flex";
-import ChatbotReusable from "./Chatbot/ChatbotReusable";
+import ChatbotReusable from "./chatbot/ChatbotReusable";
 import ChatbotForm from "./Chatbot/ChatbotForm";
 import ChatMessage from "./Chatbot/ChatMessage";
 
