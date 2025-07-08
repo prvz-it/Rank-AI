@@ -70,16 +70,16 @@ const SliderPart = () => {
       <Container className="my-9">
         <Slider {...settings}>
           {sliderImage.map((item) => (
-            <div className="block h-130 sm:h-136 lg:h-114 xl:h-96 relative -z-10">
+            <div className="block h-92 sm:h-84 md:h-110 lg:h-96 xl:h-84 relative -z-10">
               <div className="mb-18">
-                <h2 className="font-Manrope font-semibold text-2xl sm:text-4xl leading-10 sm:leading-14 tracking-[-3%] text-[#010205]">
+                <h2 className="font-Manrope font-semibold text-xl sm:text-2xl md:text-[28px] lg:text-3xl xl:text-4xl leading-8 sm:leading-10 md:leading-14 tracking-[-3%] text-[#010205]">
                   {item.para}
                 </h2>
               </div>
               <Flex className="absolute bottom-4 left-0 z-20 items-center">
-                <div>
+                <Link>
                   <img className="w-12 h-12 rounded-full border-4 border-gray-300" src={Twist} alt="bannerTwi.png" />
-                </div>
+                </Link>
                 <div className="ml-2 sm:ml-4">
                   <h3 className="font-poppins font-semibold text-base sm:text-xl leading-7 sm:leading-9 text-[#010205]">
                     {item.name}

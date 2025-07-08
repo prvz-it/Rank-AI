@@ -1,8 +1,8 @@
 import React from 'react';
 import Banner from '../components/Banner';
-import Testimonial from '../components/Testimonial';
+import Chatbot from '../components/Chatbot';
 import Course from '../components/Course';
-import FAQ from '../components/FAQ';
+import Accordion from '../components/Accordion';
 import SliderPart from '../components/SliderPart';
 import CTA from '../components/CTA';
 
@@ -10,9 +10,9 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <Testimonial />
+      <Chatbot />
       <Course />
-      <FAQ />
+      <Accordion />
       <SliderPart />
       <CTA />
     </>

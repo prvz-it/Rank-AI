@@ -81,7 +81,7 @@ const Footer = () => {
              <div className="mt-6">
                 <ul>
                     <li className="my-5.5"><Link className="font-Manrope font-normal text-sm leading-3.5 text-[#335386] flex items-center"><FaPhone className="mr-1.5" /> +880 1722365626</Link></li>
-                    <li className="my-5.5"><Link className="font-Manrope font-normal text-sm leading-3.5 text-[#335386] flex items-center"><MdEmail className="mr-1.5" /> parvez.rzk.bd@gmail.com</Link></li>
+                    <li className="my-5.5"><Link className="font-Manrope font-normal text-sm leading-3.5 text-[#335386] flex items-center"><MdEmail className="mr-1.5" /> parvez.devp@gmail.com</Link></li>
                     <li className="my-5.5"><Link className="font-Manrope font-normal text-sm leading-3.5 text-[#335386] flex items-center"><FaMapMarkerAlt className="mr-1.5" /> Equria, South Keranigonj-1311</Link></li>
                 </ul>
               </div>

@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+import BannerReusable from "./reusable/BannerReusable";
 import Container from "./layer/Container";
 import Flex from "./layer/Flex";
 
@@ -6,7 +9,6 @@ import BannerMain from "../assets/bannerMain.png"
 import BannerTwi from "../assets/bannerTwi.png"
 import backupTable from "../assets/backup_table.png"
 import Art from "../assets/atr.png"
-import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -28,43 +30,21 @@ const Banner = () => {
                 </div>
               </Flex>
               <Flex className="items-center justify-evenly">
-                <Flex className="w-42 sm:w-53 xl:w-67 items-center justify-between">
-                  <Link className="">
-                  {/* w-14 md:w-16 xl: */}
-                  {/* mr-2 sm:mr-3 md:mr-6 xl: */}
-                    <Flex className="justify-center items-center w-12 sm:w-18 xl:w-22.5 h-11 sm:h-17 xl:h-21.75 mr-2 sm:mr-4 xl:mr-6 bg-white rounded-2xl drop-shadow-3xl">
-                      <img className="w-6 sm:w-8 xl:w-12" src={backupTable} alt="backup_table.png" />
-                    </Flex>
-                  </Link>
-                  <div className="">
-                    <h2 className="md:mb-1 font-Manrope font-semibold text-xl md:text-3xl xl:text-[40px] leading-8 xl:leading-11 text-[#05131D]">2000+</h2>
-                    <p className="font-Manrope font-medium text-[15px] md:text-base xl:text-xl leading-6 xl:leading-8 text-[#05131D] opacity-70">Your protection</p>
-                  </div>
-                </Flex>
-                <Flex className="w-42 sm:w-53 xl:w-67 items-center justify-between">
-                  <Link className="">
-                    <Flex className="justify-center items-center w-12 sm:w-18 xl:w-22.5 h-11 sm:h-17 xl:h-21.75 mr-2 sm:mr-4 xl:mr-6 bg-white rounded-2xl drop-shadow-3xl">
-                      <img className="w-6 sm:w-8 xl:w-12" src={Art} alt="Art.png" />
-                    </Flex>
-                  </Link>
-                  <div className="">
-                    <h2 className="md:mb-1 font-Manrope font-semibold text-xl md:text-3xl xl:text-[40px] leading-8 xl:leading-11 text-[#05131D]">7001+</h2>
-                    <p className="font-Manrope font-medium text-[15px] md:text-base xl:text-xl leading-6 xl:leading-8 text-[#05131D] opacity-70">Provide tailored</p>
-                  </div>
-                </Flex>
+                <BannerReusable img={backupTable} title="2000+" para="Your protection"/>
+                <BannerReusable img={Art} title="7001+" para="Provide tailored"/>
               </Flex>
             </div>
             <div className="relative w-full lg:w-1/2 lg:ml-1.5 xl:ml-4 mt-12 lg:mt-0">
               <div className="block lg:flex justify-end">
-                <Link className="w-full lg:w-96 xl:w-124.5">
+                <Link className="w-full lg:w-96 xl:w-130.5">
                   <img className="w-full" src={BannerMain} alt="bannerMain.png" />
                 </Link>
               </div>
-              <div className="hidden sm:block absolute bottom-0 left-0 w-100 md:w-106 lg:w-92 xl:w-102.5 py-8 xl:py-12.5 px-8 bg-white rounded-[27px] overflow-hidden drop-shadow-4xl">
+              <div className="hidden sm:block absolute bottom-0 left-0 w-100 md:w-106 lg:w-92 xl:w-102.5 py-8 xl:py-10.5 px-8 bg-white rounded-[27px] overflow-hidden drop-shadow-4xl">
                 <div>
                   <Flex className="items-center justify-between">
-                    <h2 className="font-Manrope font-semibold text-3xl xl:text-[50px] leading-8 xl:leading-12.5 text-[#00245F]">721+</h2>
-                    <h2 className="font-Manrope font-semibold text-3xl xl:text-[50px] leading-8 xl:leading-12.5 text-[#00245F]">1000+</h2>
+                    <h2 className="font-Manrope font-semibold text-3xl xl:text-[42px] leading-8 xl:leading-12.5 text-[#00245F]">721+</h2>
+                    <h2 className="font-Manrope font-semibold text-3xl xl:text-[42px] leading-8 xl:leading-12.5 text-[#00245F]">1000+</h2>
                   </Flex>
                 </div>
                 <div className="mt-8 lg:mt-6">
